@@ -9,16 +9,15 @@ interface SelectionCardProps {
   isSelected: boolean;
   onClick: () => void;
   className?: string;
-  color?: "purple" | "blue" | "cyan" | "green" | "yellow" | "orange" | "pink";
+  color?: "purple" | "blue" | "cyan" | "indigo" | "violet" | "pink";
 }
 
 const colorClasses = {
   purple: "border-app-purple/30 hover:border-app-purple bg-app-purple/5 hover:bg-app-purple/10",
   blue: "border-app-blue/30 hover:border-app-blue bg-app-blue/5 hover:bg-app-blue/10",
   cyan: "border-app-cyan/30 hover:border-app-cyan bg-app-cyan/5 hover:bg-app-cyan/10",
-  green: "border-app-green/30 hover:border-app-green bg-app-green/5 hover:bg-app-green/10",
-  yellow: "border-app-yellow/30 hover:border-app-yellow bg-app-yellow/5 hover:bg-app-yellow/10",
-  orange: "border-app-orange/30 hover:border-app-orange bg-app-orange/5 hover:bg-app-orange/10",
+  indigo: "border-app-indigo/30 hover:border-app-indigo bg-app-indigo/5 hover:bg-app-indigo/10",
+  violet: "border-app-violet/30 hover:border-app-violet bg-app-violet/5 hover:bg-app-violet/10",
   pink: "border-app-pink/30 hover:border-app-pink bg-app-pink/5 hover:bg-app-pink/10",
 };
 

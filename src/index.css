@@ -15,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
 
-    --primary: 315 100% 65%;
+    --primary: 267 84% 64%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 240 4.8% 95.9%;
@@ -32,38 +32,39 @@
 
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 315 100% 65%;
+    --ring: 267 84% 64%;
 
     --radius: 1rem;
 
-    /* Travel App Color Palette */
-    --gradient-primary: linear-gradient(135deg, hsl(315 100% 65%), hsl(270 100% 70%));
-    --gradient-secondary: linear-gradient(135deg, hsl(210 100% 70%), hsl(190 100% 65%));
-    --gradient-tertiary: linear-gradient(135deg, hsl(25 100% 65%), hsl(350 100% 70%));
-    --gradient-rainbow: linear-gradient(135deg, hsl(315 100% 65%), hsl(270 100% 70%), hsl(210 100% 70%), hsl(190 100% 65%), hsl(140 100% 65%), hsl(60 100% 65%), hsl(25 100% 65%));
+    /* 99Partners Inspired Color Palette */
+    --gradient-primary: linear-gradient(135deg, hsl(267 84% 64%), hsl(220 100% 70%));
+    --gradient-secondary: linear-gradient(135deg, hsl(220 100% 70%), hsl(190 100% 65%));
+    --gradient-tertiary: linear-gradient(135deg, hsl(267 84% 64%), hsl(290 100% 70%));
+    --gradient-accent: linear-gradient(135deg, hsl(220 100% 70%), hsl(267 84% 64%));
+    --gradient-hero: linear-gradient(135deg, hsl(267 84% 64%) 0%, hsl(220 100% 70%) 50%, hsl(190 100% 65%) 100%);
     
-    /* Individual Rainbow Colors */
-    --color-purple: 270 100% 70%;
-    --color-blue: 210 100% 70%;
+    /* Individual Colors - 99Partners Theme */
+    --color-purple: 267 84% 64%;
+    --color-blue: 220 100% 70%;
     --color-cyan: 190 100% 65%;
-    --color-green: 140 100% 65%;
-    --color-yellow: 60 100% 65%;
-    --color-orange: 25 100% 65%;
-    --color-pink: 315 100% 65%;
+    --color-indigo: 240 85% 70%;
+    --color-violet: 290 100% 70%;
+    --color-pink: 320 85% 70%;
     
     /* Semantic Colors */
     --success: 140 100% 65%;
-    --warning: 60 100% 65%;
-    --info: 210 100% 70%;
+    --warning: 45 100% 65%;
+    --info: 220 100% 70%;
     
     /* Background Gradients */
-    --bg-gradient-main: linear-gradient(135deg, hsl(315 100% 95%), hsl(270 100% 95%));
-    --bg-gradient-card: linear-gradient(135deg, hsl(0 0% 100% / 0.8), hsl(315 100% 98% / 0.9));
+    --bg-gradient-main: linear-gradient(135deg, hsl(240 100% 99%) 0%, hsl(267 84% 98%) 50%, hsl(220 100% 99%) 100%);
+    --bg-gradient-card: linear-gradient(135deg, hsl(0 0% 100% / 0.9), hsl(267 84% 99% / 0.9));
+    --bg-gradient-hero: radial-gradient(ellipse at top, hsl(267 84% 95%) 0%, hsl(220 100% 98%) 50%, hsl(0 0% 100%) 100%);
     
     /* Shadow Effects */
-    --shadow-card: 0 8px 32px hsl(315 100% 65% / 0.12);
-    --shadow-button: 0 4px 16px hsl(315 100% 65% / 0.24);
-    --shadow-glow: 0 0 40px hsl(315 100% 65% / 0.3);
+    --shadow-card: 0 8px 32px hsl(267 84% 64% / 0.12);
+    --shadow-button: 0 4px 20px hsl(267 84% 64% / 0.25);
+    --shadow-glow: 0 0 40px hsl(267 84% 64% / 0.3);
     
     /* Animation */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -96,7 +97,7 @@
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 315 100% 65%;
+    --primary: 267 84% 64%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 240 3.7% 15.9%;
@@ -113,16 +114,16 @@
 
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 315 100% 65%;
+    --ring: 267 84% 64%;
     
-    /* Dark mode gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(315 100% 65%), hsl(270 100% 70%));
-    --gradient-secondary: linear-gradient(135deg, hsl(210 100% 60%), hsl(190 100% 55%));
-    --gradient-tertiary: linear-gradient(135deg, hsl(25 100% 55%), hsl(350 100% 60%));
-    --gradient-rainbow: linear-gradient(135deg, hsl(315 100% 65%), hsl(270 100% 70%), hsl(210 100% 60%), hsl(190 100% 55%), hsl(140 100% 55%), hsl(60 100% 55%), hsl(25 100% 55%));
+    /* Dark mode gradients - 99Partners Theme */
+    --gradient-primary: linear-gradient(135deg, hsl(267 84% 64%), hsl(220 100% 60%));
+    --gradient-secondary: linear-gradient(135deg, hsl(220 100% 60%), hsl(190 100% 55%));
+    --gradient-tertiary: linear-gradient(135deg, hsl(267 84% 64%), hsl(290 100% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(267 84% 64%) 0%, hsl(220 100% 60%) 50%, hsl(190 100% 55%) 100%);
     
-    --bg-gradient-main: linear-gradient(135deg, hsl(240 10% 3.9%), hsl(315 20% 8%));
-    --bg-gradient-card: linear-gradient(135deg, hsl(240 3.7% 15.9% / 0.8), hsl(315 20% 12% / 0.9));
+    --bg-gradient-main: linear-gradient(135deg, hsl(240 10% 3.9%), hsl(267 20% 8%));
+    --bg-gradient-card: linear-gradient(135deg, hsl(240 3.7% 15.9% / 0.8), hsl(267 20% 12% / 0.9));
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -141,7 +142,7 @@
 
   body {
     @apply bg-background text-foreground;
-    background: var(--bg-gradient-main);
+    background: var(--bg-gradient-hero);
     min-height: 100vh;
   }
   

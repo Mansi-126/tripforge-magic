@@ -27,7 +27,7 @@ export const HeroSection = ({ onGetStarted }: HeroSectionProps) => {
       
       <div className="text-center max-w-4xl mx-auto relative z-10">
         {/* Logo/Icon */}
-        <div className="w-24 h-24 bg-gradient-rainbow rounded-full flex items-center justify-center mx-auto mb-8 animate-pulse-slow shadow-glow">
+        <div className="w-24 h-24 bg-gradient-hero rounded-full flex items-center justify-center mx-auto mb-8 animate-pulse-slow shadow-glow">
           <Plane className="w-12 h-12 text-white" />
         </div>
 
@@ -80,7 +80,7 @@ export const HeroSection = ({ onGetStarted }: HeroSectionProps) => {
         {/* CTA Button */}
         <Button
           onClick={onGetStarted}
-          variant="rainbow"
+          variant="hero"
           size="xl"
           className="px-12 py-6 text-xl font-bold shadow-2xl hover:shadow-glow transform hover:scale-105 transition-all duration-300"
         >

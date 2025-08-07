@@ -62,13 +62,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Travel App Rainbow Colors
+				// 99Partners Inspired Colors
 				'app-purple': 'hsl(var(--color-purple))',
 				'app-blue': 'hsl(var(--color-blue))',
 				'app-cyan': 'hsl(var(--color-cyan))',
-				'app-green': 'hsl(var(--color-green))',
-				'app-yellow': 'hsl(var(--color-yellow))',
-				'app-orange': 'hsl(var(--color-orange))',
+				'app-indigo': 'hsl(var(--color-indigo))',
+				'app-violet': 'hsl(var(--color-violet))',
 				'app-pink': 'hsl(var(--color-pink))',
 				'app-success': 'hsl(var(--success))',
 				'app-warning': 'hsl(var(--warning))',
@@ -78,7 +77,8 @@ export default {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-secondary': 'var(--gradient-secondary)',
 				'gradient-tertiary': 'var(--gradient-tertiary)',
-				'gradient-rainbow': 'var(--gradient-rainbow)'
+				'gradient-accent': 'var(--gradient-accent)',
+				'gradient-hero': 'var(--gradient-hero)'
 			},
 			boxShadow: {
 				'glow': 'var(--shadow-glow)',

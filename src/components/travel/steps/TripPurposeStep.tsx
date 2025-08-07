@@ -38,14 +38,14 @@ const tripPurposes = [
     title: "Photography",
     description: "Capture amazing moments and places",
     icon: <Camera className="w-8 h-8" />,
-    color: "green" as const
+    color: "cyan" as const
   },
   {
     id: "celebration",
     title: "Celebration",
     description: "Special occasions and events",
     icon: <Gift className="w-8 h-8" />,
-    color: "orange" as const
+    color: "violet" as const
   },
   {
     id: "spiritual",

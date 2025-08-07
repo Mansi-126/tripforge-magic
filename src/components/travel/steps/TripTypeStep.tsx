@@ -17,7 +17,7 @@ const tripTypes = [
     title: "Adventure",
     description: "Thrilling activities and outdoor experiences",
     icon: <Camera className="w-8 h-8" />,
-    color: "green" as const
+    color: "cyan" as const
   },
   {
     id: "leisure",
@@ -45,7 +45,7 @@ const tripTypes = [
     title: "Family",
     description: "Fun activities for all family members",
     icon: <Users className="w-8 h-8" />,
-    color: "orange" as const
+    color: "violet" as const
   },
   {
     id: "romantic",

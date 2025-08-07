@@ -5,6 +5,12 @@ import { CountryStep } from "./steps/CountryStep";
 import { CitiesStep } from "./steps/CitiesStep";
 import { TripTypeStep } from "./steps/TripTypeStep";
 import { TripPurposeStep } from "./steps/TripPurposeStep";
+import { DurationStep } from "./steps/DurationStep";
+import { GroupBudgetStep } from "./steps/GroupBudgetStep";
+import { PreferencesStep } from "./steps/PreferencesStep";
+import { ActivitiesStep } from "./steps/ActivitiesStep";
+import { FoodStep } from "./steps/FoodStep";
+import { FinalStep } from "./steps/FinalStep";
 
 interface TravelWizardProps {
   onComplete: (data: TravelFormData) => void;
@@ -105,12 +111,77 @@ export const TravelWizard = ({ onComplete }: TravelWizardProps) => {
             onBack={previousStep}
           />
         );
-      default:
+      case 5:
         return (
-          <div className="text-center">
-            <h2 className="text-2xl font-bold mb-4">Step {currentStep}</h2>
-            <p>More steps coming soon...</p>
-          </div>
+          <DurationStep
+            data={{ num_days: formData.num_days, start_date: formData.start_date }}
+            onUpdate={(data) => updateFormData(data)}
+            onNext={nextStep}
+            onBack={previousStep}
+          />
+        );
+      case 6:
+        return (
+          <GroupBudgetStep
+            data={{ 
+              group_type: formData.group_type, 
+              budget: formData.budget, 
+              accommodation: formData.accommodation 
+            }}
+            onUpdate={(data) => updateFormData(data as Partial<TravelFormData>)}
+            onNext={nextStep}
+            onBack={previousStep}
+          />
+        );
+      case 7:
+        return (
+          <PreferencesStep
+            data={{ 
+              preferred_pace: formData.preferred_pace, 
+              immersion_level: formData.immersion_level, 
+              transport_mode: formData.transport_mode,
+              climate_preference: formData.climate_preference
+            }}
+            onUpdate={(data) => updateFormData(data as Partial<TravelFormData>)}
+            onNext={nextStep}
+            onBack={previousStep}
+          />
+        );
+      case 8:
+        return (
+          <ActivitiesStep
+            data={{ 
+              activity_interests: formData.activity_interests, 
+              landscapes: formData.landscapes 
+            }}
+            onUpdate={(data) => updateFormData(data)}
+            onNext={nextStep}
+            onBack={previousStep}
+          />
+        );
+      case 9:
+        return (
+          <FoodStep
+            data={{ 
+              food_preferences: formData.food_preferences, 
+              accessibility: formData.accessibility 
+            }}
+            onUpdate={(data) => updateFormData(data)}
+            onNext={nextStep}
+            onBack={previousStep}
+          />
+        );
+      case 10:
+        return (
+          <FinalStep
+            data={{ 
+              must_visit_spots: formData.must_visit_spots, 
+              special_notes: formData.special_notes 
+            }}
+            onUpdate={(data) => updateFormData(data)}
+            onNext={nextStep}
+            onBack={previousStep}
+          />
         );
     }
   };
