@@ -61,7 +61,34 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Travel App Rainbow Colors
+				'app-purple': 'hsl(var(--color-purple))',
+				'app-blue': 'hsl(var(--color-blue))',
+				'app-cyan': 'hsl(var(--color-cyan))',
+				'app-green': 'hsl(var(--color-green))',
+				'app-yellow': 'hsl(var(--color-yellow))',
+				'app-orange': 'hsl(var(--color-orange))',
+				'app-pink': 'hsl(var(--color-pink))',
+				'app-success': 'hsl(var(--success))',
+				'app-warning': 'hsl(var(--warning))',
+				'app-info': 'hsl(var(--info))'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-secondary': 'var(--gradient-secondary)',
+				'gradient-tertiary': 'var(--gradient-tertiary)',
+				'gradient-rainbow': 'var(--gradient-rainbow)'
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'card': 'var(--shadow-card)',
+				'button': 'var(--shadow-button)'
+			},
+			animation: {
+				'gradient-shift': 'gradient-shift 3s ease infinite',
+				'float': 'float 6s ease-in-out infinite',
+				'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
